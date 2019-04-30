@@ -1,0 +1,58 @@
+/*General CSS*/
+/*Rem ancestor of font size 1rem=16px*/
+
+body{
+	background-color: #F8EFBA;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: "Segoe UI";
+}
+
+nav{	
+	background-color: #1B9CFC;
+	color: white;
+}
+
+nav #nav-list{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li{
+	padding:16px;
+	text-align: center;
+	border:1px solid black;
+	transition: background-color 0.3s, padding 0.8s linear;
+}
+
+nav ul li:hover{
+	background-color:#4bcffa; 
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+/*Code for responsive website*/
+@media screen and (min-width: 700px){
+	nav ul{
+		text-align: right;
+	}
+	nav ul li{
+		display: inline-block;
+		text-align: left;	
+	}
+
+}
